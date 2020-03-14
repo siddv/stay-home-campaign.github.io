@@ -21,15 +21,15 @@ body {
 }
 
 a:link {
-    color: #d01600;
+    color: #0c37ff;
 }
 
 a:visited {
-    color: #d01600;
+    color: #0c37ff;
 }
 
 .part-x {
-    background: #042dff;
+    background: #eb759e;
     display: flex;
     flex-direction: column;
     color: white;
@@ -50,12 +50,13 @@ a:visited {
 
 header {
     position: relative;
-    background-color: #042dff;
+    background-color: #eb759e;
+    font-family: Arial;
     height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
-    background: #042dff;
+    background: #eb759e;
 }
 
 header video {
@@ -115,11 +116,6 @@ canvas{
     font-weight: bold;
 }
 
-emphasis {
-    color: #d01600;
-    font-weight: bold;
-}
-
 .source {
     font-size: small;
     font-family: Arial;
@@ -127,7 +123,7 @@ emphasis {
 }
 
 footer {
-    background: #042dff;
+    background: #eb759e;
     color: silver;
     font-size: small;
     font-family: Arial;
@@ -140,7 +136,7 @@ footer {
 
 #_progress {
     --scroll: 0%;
-    background: linear-gradient(to right,#d01600 var(--scroll),transparent 0);
+    background: linear-gradient(to right,#0c37ff var(--scroll),transparent 0);
     position: fixed;
     width: 100%;
     height: 5px;
