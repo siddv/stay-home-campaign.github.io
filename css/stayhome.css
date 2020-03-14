@@ -34,7 +34,6 @@ a:visited {
     flex-direction: column;
     color: white;
     font-size: xx-large;
-
     padding: 0;
     margin: 0;
 
@@ -50,13 +49,14 @@ a:visited {
 
 header {
     position: relative;
-    background-color: #eb759e;
+    /*background-color: #eb759e;*/
     font-family: Arial;
     height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
-    background: #eb759e;
+    color: white;
+    background: white;
 }
 
 header video {
