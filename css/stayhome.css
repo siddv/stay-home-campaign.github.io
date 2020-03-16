@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    font-family: Arial, serif;
+    font-family: Raleway;
 }
 
 a:link {
@@ -33,9 +33,10 @@ a:visited {
     display: flex;
     flex-direction: column;
     color: white;
-    font-size: xx-large;
+    font-size: large;
     padding: 0;
     margin: 0;
+    font-family: Raleway;
 
     align-items: center;
     justify-content: center;
@@ -49,14 +50,14 @@ a:visited {
 
 header {
     position: relative;
-    /*background-color: #eb759e;*/
-    font-family: Arial;
+    font-family: Raleway;
     height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
-    color: white;
-    background: white;
+    /*color: white;*/
+    background-color: #0c37ff;
+
 }
 
 header video {
@@ -126,12 +127,16 @@ footer {
     background: #eb759e;
     color: silver;
     font-size: small;
-    font-family: Arial;
     font-weight: bold;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 1.5vh;
+}
+
+.disclaimer {
+    max-width: 80vh;
+    font-size: 12px;
 }
 
 #_progress {
