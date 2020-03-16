@@ -32,6 +32,25 @@
 
         gtag('config', 'UA-160661864-1');
     </script>
+
+    <!-- Twitter -->
+    <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function(f) {
+            t._e.push(f);
+        };
+
+        return t;
+    }(document, "script", "twitter-wjs"));</script>
+
 </head>
 <body>
 <!-- Facebook share button -->
@@ -140,6 +159,9 @@
             <div class="fb-share-button" data-href="https://dontleave.org" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdontleave.org%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
             <div class="fb-like" data-href="https://www.facebook.com/stayhome2020" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>
 
+            <br><br>
+            <a class="twitter-share-button" data-text="Help us prevent the spread of #covid-19. Stay home during the outbreak! #stayhome" href="https://dontleave.org/"> Tweet</a>
+            
         </div>
     <br>
 
