@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Join other people working from home during Coronavirus outbreak #stayhome">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="#STAYHOME">
+    <meta property="og:url"           content="https://dontleave.org/coworking" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="#STAYHOME Coworking" />
+    <meta property="og:image"         content="/img/logo-mix2.png" />
+
+    <!--    <link rel="icon" type="image/png" href="/img/favicon.png">-->
+
+    <title>#STAYHOME</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../css/coworking.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Sen|Raleway:700&display=swap" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160661864-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-160661864-1');
+    </script>
+
+</head>
+<body>
+<!-- Facebook share button -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
+
+<!-- Progress bar by https://medium.com/@nilayvishwakarma/ -->
+<div id="_progress"></div>
+<script>
+    document.addEventListener(
+        "scroll",
+        function() {
+            var scrollTop =
+                document.documentElement["scrollTop"] || document.body["scrollTop"];
+            var scrollBottom =
+                (document.documentElement["scrollHeight"] ||
+                    document.body["scrollHeight"]) - document.documentElement.clientHeight;
+            scrollPercent = scrollTop / scrollBottom * 100 + "%";
+            document
+                .getElementById("_progress")
+                .style.setProperty("--scroll", scrollPercent);
+        },
+        { passive: true }
+    );
+</script>
+
+<section>
+    <div class="container-fluid part-x" >
+
+<!--        <div style="position: absolute;-->
+<!--                            right: 0%;-->
+<!--                            /*top: 0%;*/-->
+<!--                            left: 0%;-->
+<!--                            width: 10vw;-->
+<!--                            height: 100vh;-->
+<!--                            z-index: 0;-->
+<!--                            background-color: #eb759e;">-->
+<!--        </div>-->
+
+
+        <div class="container" style="width: 70vw; margin-top: 10%; margin-bottom: 10%">
+            <div><p><h1><strong>Work with other people, remotely.</strong></h1></p>
+
+                <div class="row justify-content-md-center" style="padding: 30px">
+                    <div class="col-sm" style="padding: 10px">
+                        ❤ Join other people working from home during Coronavirus outbreak
+                    </div>
+                    <div class="col-sm" style="padding: 10px">
+                        ❤ Invite your friends, or meet new people from all over the world
+                    </div>
+                    <div class="col-sm" style="padding: 10px">
+                        ❤ Share your work, get feedback, stay accountable before others
+                    </div>
+                </div>
+
+                <div class="container justify-content-center" style="padding: 1%">
+                    <a href="https://join.slack.com/t/campaignsforgood/shared_invite/zt-clnx2t1v-VFHwtyXhmqzKk2NT_W2Eeg" class="btn btn-success btn-lg" style="background-color: #eb759e;"><i class="fa fa-slack"></i> Join us on Slack</a>
+                </div>
+
+                <div style="padding: 5vh;"><a href="https://dontleave.org">#STAYHOME</a></div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>

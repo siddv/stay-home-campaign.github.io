@@ -1,0 +1,138 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Raleway;
+    background-color: #eb759e;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.part-x {
+    background: #0c37ff;
+    /*background: rgb(235,117,158);*/
+    /*background: linear-gradient(0deg, rgba(235,117,158,1) 0%, rgba(12,55,255,1) 40%);*/
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: large;
+    padding: 0;
+    margin: 0;
+    font-family: Raleway;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+
+header {
+    position: relative;
+    font-family: Raleway;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    /*color: white;*/
+    background-color: #eb759e;
+
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+    // TODO
+        /*background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;*/
+    }
+    header video {
+        display: none;
+    }
+}
+
+canvas{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.jumbotron {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.scroll-down {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.source {
+    font-size: small;
+    font-family: Arial;
+    opacity: 0.6;
+}
+
+footer {
+    background: #eb759e;
+    color: silver;
+    font-size: small;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5vh;
+}
+
+.disclaimer {
+    max-width: 80vh;
+    font-size: 12px;
+}
+
+#_progress {
+    --scroll: 0%;
+    background: linear-gradient(to right,#0c37ff var(--scroll),transparent 0);
+    position: fixed;
+    width: 100%;
+    height: 5px;
+    top:0px;
+    z-index: 100;
+}
