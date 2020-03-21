@@ -31,9 +31,9 @@
 
 # # Build settings
 # theme: minima
-# plugins:
-#   - jekyll-feed
-#   - jekyll-polyglot
+plugins:
+  - jekyll-feed
+  - jekyll-polyglot
 
 # Exclude from processing.
 # The following items will not be processed, by default.
